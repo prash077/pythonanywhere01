@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Blog</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            text-align: center;
+        }
+        .blog-container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-post {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Our College Blog</h1>
+    <div class="blog-container">
+        <div class="blog-post">
+            <h2>Upcoming College Events</h2>
+            <p>Stay tuned for our cultural and technical fests!</p>
+        </div>
+        <div class="blog-post">
+            <h2>Student Achievements</h2>
+            <p>Our students have won multiple awards in hackathons and competitions.</p>
+        </div>
+        <div class="blog-post">
+            <h2>Campus News</h2>
+            <p>Find out what's happening in our college this week.</p>
+        </div>
+    </div>
+</body>
+</html>
